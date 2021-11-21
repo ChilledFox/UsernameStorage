@@ -19,7 +19,7 @@ def list_users():
 def add_user():
     # Add user to the list
     new_user = input("Input User: ")
-    # Check if the user already exists
+    # Check if the user already exists or not
     for user in users:
     	if (new_user == user):
     		print("Error: User already exists")
